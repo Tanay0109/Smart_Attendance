@@ -16,6 +16,7 @@ Smart_Attendance
 
 
 
+
 Setup Instructions
 
 Clone the repository:
@@ -23,7 +24,7 @@ git clone https://github.com/Tanay0109/Smart_Attendance.
 cd Smart_Attendance
 
 
-(Optional) Create and activate a virtual environment:
+Optional: Create and activate a virtual environment:
 python3 -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 
@@ -33,7 +34,12 @@ pip install flask face_recognition opencv-python numpy
 Run the application:
 python flask_app.py
 
+
+
+
 Key Files
+
+
 flask_app.py: Main application logic (routes, attendance tracking, data handling)
 
 model.py: Handles facial encoding and recognition logic
@@ -44,7 +50,11 @@ assets/: Frontend files including HTML, CSS, and JS
 
 app.py: Basic Flask app runner (used during testing)
 
+
+
 Applications
 • Automates and streamlines attendance tracking in academic settings
+
 • Minimizes manual errors and proxy attendance
+
 • Can be extended for use in offices, training centers, or any event-based environments
